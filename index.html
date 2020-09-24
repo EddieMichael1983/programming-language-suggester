@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Programming Language Selector</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Answer the survey questions and we will select a language for you to learn.</h1>
+      <div>
+        <form id="formOne">
+          <div class="form-group">
+            <label for="username">Your name</label>
+            <input id="username" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="language1">A programming language</label>
+            <input id="language1" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="language2">Another programming language</label>
+            <input id="language2" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="language3">A third programming language</label>
+            <input id="language3" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="language4">A fourth programming language</label>
+            <input id="language4" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="language5">A fifth programming language</label>
+            <input id="language5" class="form-control" type="text">
+          </div>
+
+          <button type="submit" class="btn">Recommend Language</button>
+        </form> 
+      </div>
+
+      <div id="summary">
+        <h1>Your recommended language.</h1>
+        <p><span class="username"></span>, based on your input and your experience with <span class="language1"></span>, we recommend that you learn <span class="language2"></span>, <span class="language3"></span>, <span class="language4"></span>, and <span class="language5"></span>.</p>
+      </div>
+    </div>
+  </body>
+</html>
